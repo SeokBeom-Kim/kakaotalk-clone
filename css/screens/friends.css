@@ -1,5 +1,5 @@
 .friends-display-link {
-  padding: 80px 5px 20px 5px;
+  padding: 100px 5px 10px 5px;
 }
 
 .friends-display-link__container {
@@ -18,4 +18,24 @@
 
 .friends-display-link__elements:nth-child(2) {
   opacity: 1;
+}
+
+.friends__screen {
+  margin: 0px var(--horizontal-space);
+}
+
+.user-component__text {
+  margin-left: 15px;
+}
+
+.friends-screen__channel {
+  margin-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.friends-screen__channel-header {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
 }

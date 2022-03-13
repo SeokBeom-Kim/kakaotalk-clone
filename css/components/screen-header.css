@@ -4,6 +4,8 @@
   box-sizing: border-box;
   position: fixed;
   width: 100%;
+  background-color: white;
+  z-index: 0;
 }
 
 .screen-header__title {
